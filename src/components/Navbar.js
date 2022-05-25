@@ -81,15 +81,17 @@ function Navbar() {
                                 <StyledLinks href='finance'>Finance</StyledLinks>
                             </NavbarLinksContainer>
                         </RightSide>
+
                     </LogoSpanContainer>
 
+
                 </NavbarContainer>
-                    {extendSell && (
-                        <SellExtendedContainer>
-                            <Accordian />
-                        </SellExtendedContainer>
-                    )}
             </NavbarBackground>
+            {extendSell && (
+                <SellExtendedContainer>
+                    <Accordian />
+                </SellExtendedContainer>
+            )}
         </>
     );
 }

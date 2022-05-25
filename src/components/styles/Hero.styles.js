@@ -31,7 +31,7 @@ export const RightSide = styled.div`
 `;
 
 export const HeroBodyContainer = styled.div`
-    margin-top: 30px;
+    margin-top: 60px;
     width: 600px;
     height: 330px;
     background-color: white;

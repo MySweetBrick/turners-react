@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const NavbarBackground = styled.div`
+position: relative;
     width: 100%;
     height: 105px;
     background-color: #2B6DA8;
@@ -149,10 +150,15 @@ export const LogoDecoration = styled.div`
 `;
 
 export const SellExtendedContainer = styled.div`
-
-width: 100px;
+    /* display: flex;
+    align-items: center; */
+    width: 200px;
     position: absolute;
-    padding-top: 105px;
-    padding-left: 1010px;
+    right: 240px;
+    /* right: 380px;
+    top: 105px; */
+
+    /* padding-top: 105px;
+    padding-left: 1010px; */
     background-color: none;
 `;
