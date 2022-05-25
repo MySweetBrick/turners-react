@@ -1,21 +1,12 @@
 import React from 'react';
-import {
-    HomeBackground,
-    HomeContainer,
-    LeftSide,
-    RightSide,
-
-} from './styles/Home.styles';
+import Hero from '../components/Hero';
+import HomeCards from '../components/Cards';
 
 function Home () {
     return (
         <>
-            <HomeBackground>
-                <HomeContainer>
-                    <LeftSide></LeftSide>
-                    <RightSide></RightSide>
-                </HomeContainer>
-            </HomeBackground>
+            <Hero />
+            <HomeCards />
         </>
     );
 }

@@ -53,6 +53,7 @@ export const StyledLinks = styled.a`
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1.1rem;
+    cursor: pointer;
 `;
 
 export const LoginContainer = styled.div`
@@ -145,4 +146,13 @@ export const LogoDecoration = styled.div`
   z-index: 0; */
 
   
+`;
+
+export const SellExtendedContainer = styled.div`
+
+width: 100px;
+    position: absolute;
+    padding-top: 105px;
+    padding-left: 1010px;
+    background-color: none;
 `;

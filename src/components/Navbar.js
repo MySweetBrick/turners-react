@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     NavbarBackground,
     NavbarContainer,
@@ -18,6 +18,7 @@ import {
     LeftBorderRadius,
     RightBorderRadius,
     LogoDecoration,
+    SellExtendedContainer,
 
 } from './styles/Navbar.styles';
 import LogoImg from './images/turners-cars-logo-1.png';
@@ -26,8 +27,12 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 import { faCaravan } from '@fortawesome/free-solid-svg-icons';
 import { faTruck } from '@fortawesome/free-solid-svg-icons';
+import Accordian from './Accordian';
 
 function Navbar() {
+
+    const [extendSell, setExtendSell] = useState(false);
+
     return (
         <>
             <NavbarBackground>
@@ -36,14 +41,14 @@ function Navbar() {
                         <Logo src={LogoImg}></Logo>
                     </a>
                 </LogoContainer>
-                
+
                 <NavbarContainer>
                     <SearchSpanContainer>
-                            <LogoDecoration></LogoDecoration>
+                        <LogoDecoration></LogoDecoration>
                         <LeftSide>
-                        <FontAwesomeIcon icon={faTruck}></FontAwesomeIcon>|
-                        <FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon>|
-                        <FontAwesomeIcon icon={faCaravan}></FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faTruck}></FontAwesomeIcon>|
+                            <FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon>|
+                            <FontAwesomeIcon icon={faCaravan}></FontAwesomeIcon>
                         </LeftSide>
                         <SearchRightSide>
                             <SearchContainer>
@@ -68,13 +73,22 @@ function Navbar() {
                                 <StyledLinks href='/'>Home</StyledLinks>|
                                 <StyledLinks href='aboutUs'>About Us</StyledLinks>|
                                 <StyledLinks href='buy'>Buy</StyledLinks>|
-                                <StyledLinks href='sell'>Sell</StyledLinks>|
+                                <StyledLinks onClick={() => {
+                                    setExtendSell((curr) => !curr);
+                                }}
+                                >Sell</StyledLinks>|
                                 <StyledLinks href='insurance'>Insurance</StyledLinks>|
                                 <StyledLinks href='finance'>Finance</StyledLinks>
                             </NavbarLinksContainer>
                         </RightSide>
                     </LogoSpanContainer>
+
                 </NavbarContainer>
+                    {extendSell && (
+                        <SellExtendedContainer>
+                            <Accordian />
+                        </SellExtendedContainer>
+                    )}
             </NavbarBackground>
         </>
     );
