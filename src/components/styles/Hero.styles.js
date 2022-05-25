@@ -71,4 +71,10 @@ export const HeroButton = styled.button`
     border-radius: 4px;
     /* margin: 40px 100px; */
     white-space: nowrap;
+    margin: 0px 40px;
+`;
+
+export const ButtonContainer = styled.div`
+
+
 `;

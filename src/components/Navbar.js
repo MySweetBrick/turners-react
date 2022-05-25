@@ -19,6 +19,8 @@ import {
     RightBorderRadius,
     LogoDecoration,
     SellExtendedContainer,
+    TabContainer,
+    Icons,
 
 } from './styles/Navbar.styles';
 import LogoImg from './images/turners-cars-logo-1.png';
@@ -27,6 +29,7 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 import { faCaravan } from '@fortawesome/free-solid-svg-icons';
 import { faTruck } from '@fortawesome/free-solid-svg-icons';
+import { faCar } from '@fortawesome/free-solid-svg-icons';
 import Accordian from './Accordian';
 
 function Navbar() {
@@ -45,12 +48,15 @@ function Navbar() {
                 <NavbarContainer>
                     <SearchSpanContainer>
                         <LogoDecoration></LogoDecoration>
+                        <TabContainer>
+                            <Icons>
+                                <FontAwesomeIcon icon={faCar}></FontAwesomeIcon>|
+                                <FontAwesomeIcon icon={faTruck}></FontAwesomeIcon>|
+                                <FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon>|
+                                <FontAwesomeIcon icon={faCaravan}></FontAwesomeIcon>
+                            </Icons>
+                        </TabContainer>
                         <LeftSide>
-                            <FontAwesomeIcon icon={faTruck}></FontAwesomeIcon>|
-                            <FontAwesomeIcon icon={faMotorcycle}></FontAwesomeIcon>|
-                            <FontAwesomeIcon icon={faCaravan}></FontAwesomeIcon>
-                        </LeftSide>
-                        <SearchRightSide>
                             <SearchContainer>
                                 <LeftBorderRadius>
                                     <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>
@@ -58,6 +64,8 @@ function Navbar() {
                                 <SearchBar></SearchBar>
                                 <RightBorderRadius></RightBorderRadius>
                             </SearchContainer>
+                        </LeftSide>
+                        <SearchRightSide>
                             <LoginContainer>
                                 <LoginLinks href='/login'> LOGIN | REGISTER</LoginLinks>
                                 <LoginLinks href='/contactUs'> CONTACT US</LoginLinks>
@@ -66,7 +74,6 @@ function Navbar() {
                     </SearchSpanContainer>
                     <LogoSpanContainer>
                         <LeftSide>
-
                         </LeftSide>
                         <RightSide>
                             <NavbarLinksContainer>

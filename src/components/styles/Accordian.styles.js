@@ -29,7 +29,7 @@ export const InternalWrapper = styled.div`
     max-height: ${(props) => (props.open ? '200px' : '0')};
     transition: all 0.4s ease-in-out;
     overflow: hidden;
-    background-color: red;
+    background-color: #AB0000;
     color: white;
 `;
 

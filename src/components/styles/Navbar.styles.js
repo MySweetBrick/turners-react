@@ -38,7 +38,6 @@ export const LogoContainer = styled.div`
 export const Logo = styled.img`
     width: 344px;
     height: auto;
-    /* padding-left: 0px; */
 `;
 
 export const NavbarLinksContainer = styled.div`
@@ -83,15 +82,16 @@ export const SearchContainer = styled.div`
     flex: 35%;
     display: flex;
     align-items: center;
-    padding-left: 0px;
-    /* background-color: lawngreen; */
+    justify-content: center;
+    /* padding-left: 30px; */
 `;
 
 export const SearchRightSide = styled.div`
     flex: 50%;
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: row;
+    /* background-color: tomato; */
+    /* padding-left: 60px; */
 `;
 
 export const LoginLinks = styled.a`
@@ -102,11 +102,11 @@ export const LoginLinks = styled.a`
     font-weight: bold;
     font-size: 1rem;
     white-space: nowrap;
+    /* padding-left: 40px; */
+    padding-left: 20px;
 `;
 
 export const SearchBar = styled.input`
-    /* border-radius: 20px; */
-    /* margin: 15px; */
     font-size: 1.1rem;
     color: grey;
     border-color: white;
@@ -136,29 +136,37 @@ export const RightBorderRadius = styled.div`
 `;
 
 export const LogoDecoration = styled.div`
-  /* border-left: 5px solid transparent; */
   border-right: 5px solid transparent;
   border-bottom: 5px solid white;
   border-width:50px;
   height: 14px;
-  
-
-  /* position: relative;
-  z-index: 0; */
-
-  
+  z-index: 2;
 `;
 
 export const SellExtendedContainer = styled.div`
-    /* display: flex;
-    align-items: center; */
     width: 200px;
     position: absolute;
     right: 240px;
-    /* right: 380px;
-    top: 105px; */
-
-    /* padding-top: 105px;
-    padding-left: 1010px; */
     background-color: none;
+`;
+
+export const TabContainer = styled.div`
+    background-color: #245D90;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 1px;
+    left: -50px;
+    z-index: 1;
+    border-top-right-radius: 10px;
+`;
+
+export const Icons = styled.div`
+width: 135px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 35px;
+    cursor: pointer;
 `;
