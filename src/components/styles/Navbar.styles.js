@@ -17,7 +17,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const LeftSide = styled.div`
-    flex: 35%;
+    flex: 30%;
     color: white;
 
     /* background-color: bisque; */
@@ -151,8 +151,9 @@ export const SellExtendedContainer = styled.div`
 `;
 
 export const TabContainer = styled.div`
+    /* flex: 20%; */
     background-color: #245D90;
-    width: 200px;
+    min-width: 180px;
     height: 40px;
     position: relative;
     top: 1px;

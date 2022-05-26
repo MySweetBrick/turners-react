@@ -57,15 +57,16 @@ function Navbar() {
                             </Icons>
                         </TabContainer>
                         <LeftSide>
-                            <SearchContainer>
+                            
+                        </LeftSide>
+                        <SearchRightSide>
+                        <SearchContainer>
                                 <LeftBorderRadius>
                                     <FontAwesomeIcon icon={faMagnifyingGlass}></FontAwesomeIcon>
                                 </LeftBorderRadius>
                                 <SearchBar></SearchBar>
                                 <RightBorderRadius></RightBorderRadius>
                             </SearchContainer>
-                        </LeftSide>
-                        <SearchRightSide>
                             <LoginContainer>
                                 <LoginLinks href='/login'> LOGIN | REGISTER</LoginLinks>
                                 <LoginLinks href='/contactUs'> CONTACT US</LoginLinks>
