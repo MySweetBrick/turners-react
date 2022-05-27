@@ -9,15 +9,16 @@ export const CardsBackground = styled.div`
     /* background-image: url(${img});
     background-size: cover; */
     width: 100%;
-    height: 800px;
+    height: 400px;
     display: flex;
     justify-content: center;
     background-color: #EBEBEB;
+    /* background-color: white; */
 `;
 
 export const CardsContainer = styled.div`
     width: 90%;
-    height: 500px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -64,16 +65,8 @@ export const CashCard = styled.div`
 
 `;
 
-export const Cards = styled.div`
-    width: 280px;
-    height: 280px;
-    border-radius: 8px;
-    background-color: #EBEBEB;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
-`;
-
 export const CardBodyBackground = styled.div`
+    height: 135px;
     /* margin: 20px; */
     display: flex;
     flex-direction: column;

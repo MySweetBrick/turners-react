@@ -1,4 +1,5 @@
 import React from 'react';
+// import { useNavigate } from 'react-router-dom';
 import {
     AccordianBackground,
     AccordionWrapper,
@@ -19,6 +20,8 @@ function Accordian() {
     const handleClick = () => {
         setOpen(!open);
     };
+
+    // const navigate = useNavigate();
 
     return (
         <>

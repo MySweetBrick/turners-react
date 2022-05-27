@@ -6,13 +6,12 @@ import {
     FinanceCard,
     TradeCard,
     CashCard,
-    Cards,
     CardBodyBackground,
     CardBody
-} from './styles/Cards.styles';
+} from '../styles/Cards.styles';
 import {
     HeroButton,
-} from './styles/Hero.styles';
+} from '../styles/Hero.styles';
 
 function HomeCards() {
     return (
@@ -49,7 +48,7 @@ function HomeCards() {
                     <CashCard>
                         <CardBodyBackground>
                             <CardBody>
-                            Turners CashNow - Get an offer on the spot, and you’ll have the money in your bank account within 48 hours.
+                            Turners CashNow Service- Get an offer on the spot, and you’ll have the money in your bank account within 48 hours.
                             <HeroButton>Cash Now</HeroButton>
                         </CardBody>
                         </CardBodyBackground>

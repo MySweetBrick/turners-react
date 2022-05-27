@@ -6,20 +6,24 @@ export const FooterBackground = styled.div`
     background-color: #EBEBEB;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const FooterInnerContainer = styled.div`
-    width: 80%;
+    width: 90%;
     height: 310px;
     display: flex;
+    justify-content: space-around;
     /* position: relative; */
-    padding-left: 10%;
+    /* padding-left: 10%; */
     /* padding-right: 10px; */
 `;
 
 export const FooterContents = styled.div`
+
     height: 140px;
-    flex: 20%;
+    /* flex: 20%; */
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -41,7 +45,7 @@ export const ContainerLinks = styled.a`
     font-family: sans-serif;
     text-decoration: none;
     color: #2B6DA8;
-    font-size: .9rem;
+    font-size: 1rem;
     font-weight: bold;
     padding: 4px;
 `;
@@ -49,13 +53,18 @@ export const ContainerLinks = styled.a`
 export const IconContainer = styled.div`
 display: flex;
 flex-direction: row;
-padding-left: 30px;
+/* padding-left: 30px; */
 `;
 
 export const Image = styled.img`
     width: 40px;
     height: 40px;
-    margin: 10px;
+    margin: 10px 10px 10px 0px;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+`;
+
+export const ContactContainer = styled.div`
+    padding-top: 70px;
+    /* padding-left: 20px; */
 `;

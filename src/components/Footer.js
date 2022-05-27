@@ -7,6 +7,7 @@ import {
     ContainerHeader,
     IconContainer,
     Image,
+    ContactContainer,
 } from './styles/Footer.styles';
 import {
     SearchBar,
@@ -48,7 +49,7 @@ function Footer() {
                         <ContainerLinks>Buses, Caravans & Motorhomes</ContainerLinks>
                         <ContainerLinks>General Goods</ContainerLinks>
                     </FooterContents>
-                    <FooterContents>
+                    <ContactContainer>
                         <ContainerHeader>Sign up for latest offers, <br />
                         auctions, & more!</ContainerHeader>
                         {/* <SearchBar type='text' placeholder='Email address here'></SearchBar> */}
@@ -64,7 +65,7 @@ function Footer() {
                                 <Image src={ Instagram }></Image>
                                 <Image src={ Linkedin }></Image>
                             </IconContainer>
-                    </FooterContents>
+                    </ContactContainer>
                 </FooterInnerContainer>
             </FooterBackground>
         </>

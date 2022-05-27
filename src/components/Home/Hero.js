@@ -10,7 +10,7 @@ import {
     HeroHeader,
     HeroBody,
     BodyLinks,
-} from './styles/Hero.styles';
+} from '../styles/Hero.styles';
 
 function Home() {
     return (
