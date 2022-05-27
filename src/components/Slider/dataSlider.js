@@ -25,6 +25,7 @@ const dataSlider = [
     id: uuidv4(),
     title: "Christchurch",
     subTitle: "Jeep Cherokee 2017"
+    
   },
 ];
 
