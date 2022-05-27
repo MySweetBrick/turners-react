@@ -4,8 +4,6 @@ export const CarouselBackground = styled.div`
     width: 100%;
     height: 630px;
     background-color: white;
-    /* display: flex;
-    flex-direction: column; */
 `;
 
 export const HeaderContainer = styled.div`

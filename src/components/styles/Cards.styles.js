@@ -1,19 +1,15 @@
 import styled from 'styled-components';
-import img from '../images/caryard.jpeg';
 import QuoteImg from '../images/telemarketer.webp';
 import FinanceImg from '../images/finance.jpeg';
 import TradeImg from '../images/tradein.jpeg';
 import CashImg from '../images/cash.jpeg';
 
 export const CardsBackground = styled.div`
-    /* background-image: url(${img});
-    background-size: cover; */
     width: 100%;
     height: 400px;
     display: flex;
     justify-content: center;
-    background-color: #EBEBEB;
-    /* background-color: white; */
+    background-color: white;
 `;
 
 export const CardsContainer = styled.div`
@@ -32,7 +28,6 @@ export const QuoteCard = styled.div`
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
 `;
 
 export const FinanceCard = styled.div`
@@ -42,7 +37,6 @@ export const FinanceCard = styled.div`
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
 `;
 
 export const TradeCard = styled.div`
@@ -52,7 +46,6 @@ export const TradeCard = styled.div`
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
 `;
 
 export const CashCard = styled.div`
@@ -62,19 +55,15 @@ export const CashCard = styled.div`
     background-size: cover;
     border-radius: 8px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-
 `;
 
 export const CardBodyBackground = styled.div`
     height: 135px;
-    /* margin: 20px; */
     display: flex;
     flex-direction: column;
     color: white;
     font-weight: bold;
     font-size: 1rem;
-   /* background-color: white;
-    opacity: 0.5; */
     background-color: rgba(43, 110, 168, 0.5);
     position: relative;
     top: 145px;
@@ -83,12 +72,10 @@ export const CardBodyBackground = styled.div`
 `;
 
 export const CardBody = styled.div`
-    /* margin: 20px; */
     margin: 5px;
     display: flex;
     flex-direction: column;
     color: white;
     font-weight: bold;
     font-size: 1rem;
-
 `;

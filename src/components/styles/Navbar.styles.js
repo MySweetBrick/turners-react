@@ -19,20 +19,16 @@ export const NavbarContainer = styled.div`
 export const LeftSide = styled.div`
     flex: 30%;
     color: white;
-
-    /* background-color: bisque; */
 `;
 
 export const RightSide = styled.div`
     flex: 65%;
-    /* background-color: blueviolet; */
 `;
 
 export const LogoContainer = styled.div`
     width: 344px;
     height: 50px;
     padding-top: 7px;
-    /* background-color: aquamarine; */
 `;
 
 export const Logo = styled.img`
@@ -83,15 +79,12 @@ export const SearchContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-left: 30px; */
 `;
 
 export const SearchRightSide = styled.div`
     flex: 50%;
     display: flex;
     flex-direction: row;
-    /* background-color: tomato; */
-    /* padding-left: 60px; */
 `;
 
 export const LoginLinks = styled.a`
@@ -102,7 +95,6 @@ export const LoginLinks = styled.a`
     font-weight: bold;
     font-size: 1rem;
     white-space: nowrap;
-    /* padding-left: 40px; */
     padding-left: 20px;
 `;
 
@@ -151,7 +143,6 @@ export const SellExtendedContainer = styled.div`
 `;
 
 export const TabContainer = styled.div`
-    /* flex: 20%; */
     background-color: #245D90;
     min-width: 180px;
     height: 40px;

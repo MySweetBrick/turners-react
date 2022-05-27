@@ -15,23 +15,15 @@ export const FooterInnerContainer = styled.div`
     height: 310px;
     display: flex;
     justify-content: space-around;
-    /* position: relative; */
-    /* padding-left: 10%; */
-    /* padding-right: 10px; */
 `;
 
 export const FooterContents = styled.div`
-
     height: 140px;
-    /* flex: 20%; */
     display: flex;
     flex-direction: column;
     align-items: left;
     padding-top: 80px;
     justify-content: space-between;
-    /* justify-content: center; */
-    /* width: 50%; */
-    /* background-color: lightblue; */
 `;
 
 export const ContainerHeader = styled.h1`
@@ -53,7 +45,6 @@ export const ContainerLinks = styled.a`
 export const IconContainer = styled.div`
 display: flex;
 flex-direction: row;
-/* padding-left: 30px; */
 `;
 
 export const Image = styled.img`
@@ -66,5 +57,4 @@ export const Image = styled.img`
 
 export const ContactContainer = styled.div`
     padding-top: 70px;
-    /* padding-left: 20px; */
 `;
